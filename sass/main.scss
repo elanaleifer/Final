@@ -1,5 +1,5 @@
 html {
-   background-image: url("FinalAssignment/image"); no repeat center center fixed
+   background-image: url("web-design/FinalAssignment/image/row-of-cacti.jpeg") no-repeat center center fixed;
 }
 
 h1 {
@@ -9,8 +9,7 @@ h1 {
 nav a {
   display: block;
   border: 1px solid #b8fdb6;
-  width: 122
-  px;
+  width: 122px;
   line-height: 34px;
 }
 
@@ -45,6 +44,9 @@ nav ul > li:hover ul {
 }
 
 footer {
+   position: fixed;
+   bottom: 4px;
+   left: 250px;
    margin-top: 600px;
 }
 
