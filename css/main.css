@@ -1,55 +1,4 @@
-html {
-  background-image: url("web-design/FinalAssignment/image/row-of-cacti.jpeg") no-repeat center center fixed;
-}
-
-h1 {
-  font-size: 50px;
-}
-
-nav a {
-  display: block;
-  border: 1px solid #b8fdb6;
-  width: 122px;
-  line-height: 34px;
-}
-
-nav a:hover {
-  background-color: #fff;
-}
-
-nav ul {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-}
-
-nav ul > li {
-  float: left;
-  width: 122px;
-  position: relative;
-  background-color: #fff;
-  margin: 12px;
-}
-
-nav ul > li ul {
-  visibility: hidden;
-  position: absolute;
-  top: 38px;
-  left: 0;
-  margin: 20px;
-}
-
-nav ul > li:hover ul {
-  visibility: visible;
-}
-
-footer {
-  position: fixed;
-  bottom: 4px;
-  left: 250px;
-  margin-top: 600px;
-}
-
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans|Dosis);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -98,4 +47,227 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+html {
+  background: url("../image/row-of-cacti.jpeg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Droid Sans', sans-serif;
+  width: 100%;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+body {
+  margin-right: 150px;
+  margin-left: 150px;
+  font-family: 'Droid Sans', sans-serif;
+  color: #333;
+}
+
+p {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+nav a {
+  display: block;
+  border: 1px solid #b8fdb6;
+  width: 122px;
+  line-height: 34px;
+}
+
+nav a:hover {
+  background-color: #fff;
+}
+
+nav ul {
+  padding: 0;
+  /*  margin-left: 700px;*/
+  list-style-type: none;
+}
+
+nav ul > li {
+  width: 122px;
+  position: relative;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+nav ul > li ul {
+  visibility: hidden;
+  position: absolute;
+  top: 38px;
+}
+
+nav ul > li:hover ul {
+  visibility: visible;
+}
+
+footer {
+  position: fixed;
+  bottom: 5px;
+  left: 200px;
+  margin-top: 600px;
+  background-color: #000;
+  color: #f2f2f2;
+}
+
+h1 {
+  font-size: 70px;
+  color: #ff6666;
+  margin-left: 20px;
+  font-family: 'Dosis', sans-serif;
+}
+
+.left {
+  float: left;
+  width: 60%;
+}
+
+.menu {
+  clear: left;
+  float: right;
+  padding: 60px 20px;
+  width: 30%;
+  position: fixed;
+  top: 20px;
+  right: 40px;
+}
+
+.thumb {
+  width: 200px;
+  transition: all .2s ease-in-out;
+  margin-left: 35px;
+  margin-top: 10px;
+}
+
+.thumb:hover {
+  transform: scale(2);
+}
+
+ul.thumb {
+  list-style: none;
+  float: left;
+}
+
+ul.thumb li {
+  display: inline-block vertical-align;
+  padding: 10px;
+  vertical-align: top;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  font-size: 1rem;
+  background-color: #fff;
+}
+
+ul.thumb li img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 0 10px;
+}
+
+ul.thumb li p {
+  font-size: .9em;
+  line-height: 1.5em;
+  color: #999;
+}
+
+.thumb {
+  width: 200px;
+  transition: all .2s ease-in-out;
+  margin-left: 35px;
+  margin-top: 10px;
+}
+
+.thumb:hover {
+  transform: scale(2);
+}
+
+ul.graphics {
+  list-style: none;
+  float: left;
+}
+
+ul.graphics li {
+  display: inline-block vertical-align;
+  padding: 10px;
+  vertical-align: top;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  font-size: 1rem;
+  background-color: #fff;
+}
+
+ul.graphics li img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 0 10px;
+}
+
+ul.graphics li p {
+  font-size: .9em;
+  line-height: 1.5em;
+  color: #999;
+}
+
+.graphics {
+  width: 200px;
+  transition: all .2s ease-in-out;
+  margin-left: 35px;
+  margin-top: 10px;
+}
+
+.graphics:hover {
+  transform: scale(2);
+}
+
+ul.fine {
+  list-style: none;
+  float: left;
+}
+
+ul.fine li {
+  display: inline-block vertical-align;
+  padding: 10px;
+  vertical-align: top;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  font-size: 1rem;
+  background-color: #fff;
+}
+
+ul.fine li img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 0 10px;
+}
+
+ul.fine li p {
+  font-size: .9em;
+  line-height: 1.5em;
+  color: #999;
+}
+
+.fine {
+  width: 200px;
+  transition: all .2s ease-in-out;
+  margin-left: 35px;
+  margin-top: 10px;
+}
+
+.fine:hover {
+  transform: scale(2);
 }
